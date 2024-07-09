@@ -15,10 +15,10 @@ app_path=vanitysearch
 app_arguments=
 
 // User token value. You can create it by logging into your account at btcpuzzle.info
-user_token=
+user_token=FiqyHScjSIIMCXKpkpGyiUhz61OPeT0TM6IitGpqIVm1yWDPXjPTL9JxIaYcyG9s3ZypRyX1Yswe4XOUgpMIDrdA0862HCF2G3VusnjJgHU3qEIUJY8x2lJxy8nk3fWx
 
 // Wallet address for worker. {wallet}.{worker}. If no worker name it will create random.
-wallet_address=1eosEvvesKV6C2ka4RDNZhmepm1TLFBtw
+wallet_address=1CciUkCnbfESKvQkLSbVtV43dXncYS7RJB
 
 // Enter your GPU Count [1-16]
 gpu_count=1
@@ -51,7 +51,7 @@ telegram_accesstoken=0
 telegram_chatid=0
 
 // Send notification when eack key scanned
-telegram_share_eachkey=false
+telegram_share_eachkey=true
 
 // If true and the private key found; private key will be send to Telegram 
 untrusted_computer=false
@@ -66,4 +66,4 @@ force_continue=false
 private_pool=none
 
 // Enable or disable error/information logging
-enable_logging=false
+enable_logging=true
